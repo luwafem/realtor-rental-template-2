@@ -1,16 +1,16 @@
 export const siteConfig = {
-  companyName: 'Ezenwa James',
-  tagline: 'Your Trusted Real Estate Partner in Awka',
-  description: 'A premier real estate agency based in Awka, Anambra State, specializing in the sale, rental, and management of residential and commercial properties. We provide personalized service to help you find your dream home or make sound property investments.',
-  phone: '+234 803 123 4567',
-  whatsappNumber: '2348031234567', 
-  email: 'info@ezenwajames.com.ng',
+  companyName: 'Mekaddishkem Properties',
+  tagline: 'Your Premier Real Estate Partner in Lagos',
+  description: 'A trusted real estate agency based in Lagos, specializing in the sale, rental, and management of residential and commercial properties across Lekki, Ajah, and beyond. We offer expert guidance to help you find your dream home or make profitable property investments.',
+  phone: '+234 809 876 5432',
+  whatsappNumber: '2348098765432',
+  email: 'info@mekaddishkemproperties.com.ng',
   logo: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=200&auto=format&fit=crop', // Modern building facade
-  
+
   hero: {
-    title: 'Discover Your Perfect Property in Awka',
-    subtitle: 'Expert real estate services tailored to your needs. Buy, sell, or rent with confidence.',
-    backgroundImage: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=2070&auto=format&fit=crop', // Modern Nigerian neighborhood
+    title: 'Discover Your Perfect Property in Lagos',
+    subtitle: 'Expert real estate services in Lekki and Ajah. Buy, sell, or rent with confidence.',
+    backgroundImage: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=2070&auto=format&fit=crop', // Lagos skyline / modern neighborhood
     ctaText: 'View Properties',
     ctaLink: '/properties'
   },
@@ -19,8 +19,8 @@ export const siteConfig = {
     {
       id: 'property-sales',
       title: 'Property Sales',
-      shortDesc: 'Find your ideal home or investment property in Awka.',
-      description: 'We offer a wide range of residential and commercial properties for sale, from cozy bungalows to expansive compounds. Our team guides you through every step of the purchasing process.',
+      shortDesc: 'Find your ideal home or investment property in Lagos.',
+      description: 'We offer a wide range of residential and commercial properties for sale in prime locations like Lekki Phase 1, Ajah, and Ikoyi. Our team guides you through every step of the purchasing process.',
       image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=2070&auto=format&fit=crop', // Beautiful house
       price: 'Negotiable',
       features: ['Wide Selection', 'Title Verification', 'Negotiation Support', 'Legal Assistance']
@@ -28,8 +28,8 @@ export const siteConfig = {
     {
       id: 'rentals',
       title: 'Rental Services',
-      shortDesc: 'Quality rental properties in prime locations.',
-      description: 'Whether you need a short-term apartment or a long-term family home, we have verified rental options to suit your budget and preferences.',
+      shortDesc: 'Quality rental properties in Lagos’s most desirable neighborhoods.',
+      description: 'Whether you need a short-term apartment in Lekki or a long-term family home in Ajah, we have verified rental options to suit your budget and preferences.',
       image: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=2070&auto=format&fit=crop', // Modern apartment interior
       price: 'Market Rates',
       features: ['Flexible Terms', 'Maintenance Support', 'Tenant Screening', 'Lease Management']
@@ -37,7 +37,7 @@ export const siteConfig = {
     {
       id: 'property-management',
       title: 'Property Management',
-      shortDesc: 'Hassle-free management for landlords.',
+      shortDesc: 'Hassle-free management for landlords in Lagos.',
       description: 'Let us handle your property worries. From tenant sourcing to rent collection and maintenance, we ensure your investment is well taken care of.',
       image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=2070&auto=format&fit=crop', // Office building
       price: 'Competitive Rates',
@@ -48,82 +48,161 @@ export const siteConfig = {
   testimonials: [
     {
       id: 1,
-      name: 'Chidi Okonkwo',
+      name: 'Adebayo Ogunlesi',
       role: 'Home Buyer',
-      content: 'Ezenwa James made my first home purchase in Awka seamless and stress-free. Their knowledge of the local market is unmatched.',
+      content: 'Mekaddishkem Properties made my first home purchase in Lekki seamless and stress-free. Their knowledge of the local market is unmatched.',
       rating: 5
     },
     {
       id: 2,
-      name: 'Ngozi Eze',
+      name: 'Folake Adenuga',
       role: 'Landlord',
-      content: 'I have trusted them with managing my properties for over two years. Professional, reliable, and always responsive.',
+      content: 'I have trusted them with managing my properties in Ajah for over two years. Professional, reliable, and always responsive.',
       rating: 5
     },
     {
       id: 3,
-      name: 'Emeka Nwosu',
+      name: 'Chuka Eze',
       role: 'Investor',
-      content: 'They helped me acquire a prime commercial plot in Awka. Excellent negotiation and due diligence.',
+      content: 'They helped me acquire a prime commercial plot in Lekki. Excellent negotiation and due diligence.',
       rating: 5
     }
   ],
 
   social: {
-    instagram: 'https://instagram.com/ezenwajamesrealestate',
-    facebook: 'https://facebook.com/ezenwajamesproperties',
-    twitter: 'https://twitter.com/ezenwajames',
+    instagram: 'https://instagram.com/mekaddishkemproperties',
+    facebook: 'https://facebook.com/mekaddishkemproperties',
+    twitter: 'https://twitter.com/mekaddishkem',
   },
 
   properties: [
     {
-      id: 'awka-3bedroom-duplex',
-      name: 'Luxury 3-Bedroom Duplex',
+      id: 'lekki-4bedroom-terrace',
+      name: 'Luxury 4-Bedroom Terrace Duplex',
       type: 'Residential',
-      bedrooms: 3,
-      bathrooms: 3,
-      area: '300 sqm',
-      location: 'Government Layout, Awka',
-      price: '₦85,000,000',
-      features: ['Modern Finishes', 'Boys Quarters', 'Parking for 3 Cars', 'Fenced Yard'],
+      bedrooms: 4,
+      bathrooms: 4,
+      area: '350 sqm',
+      location: 'Lekki Phase 1, Lagos',
+      price: '₦250,000,000',
+      features: ['Modern Finishes', 'Boys Quarters', 'Parking for 3 Cars', 'Fenced Yard', '24hr Security'],
       image: 'https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=2070&auto=format&fit=crop', // Modern duplex
-      description: 'A stunning duplex in a serene neighborhood. Features spacious living areas, en-suite bedrooms, and a well-equipped kitchen. Close to schools and shopping centers.'
+      description: 'A stunning terrace duplex in a serene neighborhood of Lekki Phase 1. Features spacious living areas, en-suite bedrooms, and a well-equipped kitchen. Close to schools, malls, and entertainment.'
     },
     {
-      id: 'awka-commercial-land',
+      id: 'ajah-commercial-land',
       name: 'Prime Commercial Land',
       type: 'Land',
       bedrooms: 0,
       bathrooms: 0,
-      area: '500 sqm',
-      location: 'Along Enugu-Onitsha Expressway, Awka',
-      price: '₦120,000,000',
+      area: '600 sqm',
+      location: 'Ajah, Lagos',
+      price: '₦180,000,000',
       features: ['High Traffic', 'Ready for Development', 'All Documents Verified', 'Corner Plot'],
-      image: 'https://images.nigeriapropertycentre.com/properties/images/3184944/0690a1447d706e-anambra-state-trrritory-for-sale-awka-anambra.jpg', // Commercial plot
-      description: 'Excellent location for business development. Suitable for retail, office, or mixed-use. With all necessary approvals in place.'
+      image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2070&auto=format&fit=crop', // Commercial plot
+      description: 'Excellent location along the Lekki-Epe Expressway, perfect for retail, office, or mixed-use development. With all necessary approvals in place.'
     },
     {
-      id: 'awka-4bedroom-bungalow',
-      name: 'Spacious 4-Bedroom Bungalow',
+      id: 'lekki-3bedroom-apartment',
+      name: 'Spacious 3-Bedroom Apartment',
+      type: 'Residential',
+      bedrooms: 3,
+      bathrooms: 3,
+      area: '200 sqm',
+      location: 'Ajah, Lagos',
+      price: '₦85,000,000',
+      features: ['Large Compound', 'POP Ceilings', 'Tiled Floors', 'Borehole', 'Estate Security'],
+      image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2070&auto=format&fit=crop', // Bungalow/Apartment
+      description: 'Ideal for a growing family. This apartment offers generous living space, a well-maintained garden, and proximity to schools and markets.'
+    },
+    // New properties added below
+    {
+      id: 'lekki-5bedroom-detached',
+      name: 'Exclusive 5-Bedroom Detached Duplex',
+      type: 'Residential',
+      bedrooms: 5,
+      bathrooms: 6,
+      area: '550 sqm',
+      location: 'Lekki Gardens, Lagos',
+      price: '₦420,000,000',
+      features: ['Swimming Pool', 'Smart Home System', 'Staff Quarters', 'Landscaped Garden', '24hr Security'],
+      image: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=2070&auto=format&fit=crop', // Luxury mansion
+      description: 'A masterpiece of contemporary design in the exclusive Lekki Gardens estate. This home features a private swimming pool, state‑of‑the‑art smart home technology, lush gardens, and premium finishes throughout. Perfect for discerning buyers seeking ultimate luxury.'
+    },
+    {
+      id: 'ajah-2bedroom-flat',
+      name: 'Modern 2-Bedroom Flat',
+      type: 'Residential',
+      bedrooms: 2,
+      bathrooms: 2,
+      area: '120 sqm',
+      location: 'Ajah, Lagos',
+      price: '₦45,000,000',
+      features: ['Fully Fitted Kitchen', 'Balcony', 'Tiled Floors', 'Estate Security', 'Prepaid Meter'],
+      image: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=2070&auto=format&fit=crop', // Modern apartment interior
+      description: 'A stylish and functional flat perfect for young professionals or small families. Located in a well‑managed estate with reliable security, close to major shopping centers and public transport.'
+    },
+    {
+      id: 'ikoyi-luxury-penthouse',
+      name: 'Luxury Penthouse with Ocean View',
       type: 'Residential',
       bedrooms: 4,
-      bathrooms: 3,
-      area: '450 sqm',
-      location: 'Temporary Site, Awka',
-      price: '₦65,000,000',
-      features: ['Large Compound', 'POP Ceilings', 'Tiled Floors', 'Borehole'],
-      image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2070&auto=format&fit=crop', // Bungalow
-      description: 'Ideal for a large family. This bungalow offers generous living space, a well-maintained garden, and proximity to Nnamdi Azikiwe University.'
+      bathrooms: 5,
+      area: '400 sqm',
+      location: 'Ikoyi, Lagos',
+      price: '₦650,000,000',
+      features: ['Private Rooftop Terrace', 'Jacuzzi', 'Panoramic Views', 'Concierge Service', 'Private Lift'],
+      image: 'https://images.unsplash.com/photo-1502672023488-70e25813eb80?q=80&w=2070&auto=format&fit=crop', // Penthouse
+      description: 'Experience the pinnacle of urban living in this breathtaking penthouse overlooking the Lagos lagoon. With a private rooftop terrace, jacuzzi, and world‑class finishes, it offers an unmatched lifestyle in the heart of Ikoyi.'
+    },
+    {
+      id: 'lekki-shop-house',
+      name: 'Shop House (Commercial + Residential)',
+      type: 'Commercial',
+      bedrooms: 2,
+      bathrooms: 2,
+      area: '250 sqm',
+      location: 'Lekki Phase 1, Lagos',
+      price: '₦120,000,000',
+      features: ['Ground Floor Shop', 'Upstairs Living Quarters', 'High Foot Traffic', 'Parking Space'],
+      image: 'https://images.unsplash.com/photo-1572025442646-866d16c84a54?q=80&w=2070&auto=format&fit=crop', // Shop house
+      description: 'A versatile property combining retail space on the ground floor with comfortable living quarters upstairs. Ideal for entrepreneurs who want to live and work in the same prime location. Situated on a busy street with excellent visibility.'
+    },
+    {
+      id: 'sangotedo-land',
+      name: 'Residential Land for Development',
+      type: 'Land',
+      bedrooms: 0,
+      bathrooms: 0,
+      area: '500 sqm',
+      location: 'Sangotedo, Lagos',
+      price: '₦75,000,000',
+      features: ['Fenced', 'Survey Approved', 'Dry Land', 'Close to Amenities'],
+      image: 'https://images.unsplash.com/photo-1582408921715-4e2b2b1e4c6d?q=80&w=2070&auto=format&fit=crop', // Land plot
+      description: 'A prime piece of land in the rapidly developing Sangotedo area. Perfect for building a family home or small residential development. All documents are verified and ready for transfer.'
+    },
+    {
+      id: 'lekki-5bedroom-duplex-pool',
+      name: '5-Bedroom Duplex with Pool',
+      type: 'Residential',
+      bedrooms: 5,
+      bathrooms: 5,
+      area: '500 sqm',
+      location: 'Lekki Phase 2, Lagos',
+      price: '₦380,000,000',
+      features: ['Swimming Pool', 'Modern Kitchen', 'Play Area', 'Ample Parking', '24hr Power Supply'],
+      image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070&auto=format&fit=crop', // House with pool
+      description: 'A stunning family home in a quiet cul de sac of Lekki Phase 2. Features include a large swimming pool, a modern open‑plan living area, a fully equipped kitchen, and a secure compound. Perfect for entertaining and comfortable family living.'
     }
   ],
 
   formspreeEndpoint: 'https://formspree.io/f/your-form-id',
 
   meta: {
-    title: 'Ezenwa James | Real Estate Agent in Awka, Nigeria',
-    description: 'Ezenwa James offers professional real estate services in Awka. Buy, sell, or rent properties with a trusted local agent. Residential & commercial listings.',
-    ogImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop',
-    url: 'https://ezenwajames.com.ng',
-    twitterHandle: '@ezenwajames'
+    title: 'Mekaddishkem Properties | Real Estate Agent in Lagos (Lekki & Ajah)',
+    description: 'Mekaddishkem Properties offers professional real estate services in Lagos. Buy, sell, or rent properties in Lekki, Ajah, and beyond with a trusted local agent.',
+    ogImage: 'https://images.unsplash.com/photo-1580048915913-4f8f5cb481c4?q=80&w=1200&auto=format&fit=crop',
+    url: 'https://mekaddishkemproperties.com.ng',
+    twitterHandle: '@mekaddishkem'
   }
 };

@@ -124,7 +124,7 @@ const ServiceDetail = () => {
               <div className="mt-10 pt-10 border-t border-white/5 space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-[9px] uppercase tracking-widest text-white/30 font-bold">Service Area</span>
-                  <span className="text-[10px] uppercase tracking-widest text-white/60">Awka & Anambra</span>
+                  <span className="text-[10px] uppercase tracking-widest text-white/60">Lekki, Ajah & Lagos</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-[9px] uppercase tracking-widest text-white/30 font-bold">Documentation</span>

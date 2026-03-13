@@ -19,7 +19,7 @@ const Services = () => {
     <div className="bg-[#050505] min-h-screen">
       <Helmet>
         <title>Our Services | {siteConfig.companyName}</title>
-        <meta name="description" content="Professional real estate services in Awka: Property sales, rentals, and management. Expert guidance for buyers, sellers, and landlords." />
+        <meta name="description" content="Professional real estate services in Lagos: Property sales, rentals, and management in Lekki, Ajah, and beyond. Expert guidance for buyers, sellers, and landlords." />
       </Helmet>
 
       {/* Header Section */}
@@ -41,7 +41,7 @@ const Services = () => {
             </div>
             <div className="hidden md:block">
               <p className="text-[10px] uppercase tracking-[0.3em] text-white/20 font-bold italic">
-                Awka &bull; Anambra State &bull; Nigeria
+                Lekki &bull; Ajah &bull; Lagos
               </p>
             </div>
           </motion.div>
@@ -79,7 +79,7 @@ const Services = () => {
             Need help with your property needs?
           </h2>
           <p className="text-white/40 font-light text-sm mb-10 leading-relaxed max-w-xl mx-auto">
-            Whether you're buying your first home, looking for a rental, or seeking professional management for your investment, our team is ready to assist you with personalized service.
+            Whether you're buying your first home, looking for a rental in Lekki or Ajah, or seeking professional management for your investment, our team is ready to assist you with personalized service.
           </p>
           <motion.a 
             href="/contact"

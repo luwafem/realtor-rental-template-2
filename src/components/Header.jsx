@@ -38,7 +38,7 @@ const Header = () => {
               {siteConfig.companyName}
             </span>
             <span className="text-[7px] tracking-[0.5em] uppercase text-white/40 mt-1.5 font-bold">
-              Private Mandates
+              Lekki • Ajah • Lagos
             </span>
           </div>
         </Link>
@@ -108,12 +108,12 @@ const Header = () => {
             </nav>
             
             <div className="mt-20 pt-10 border-t border-white/5">
-              <p className="text-[10px] tracking-[0.4em] uppercase text-white/30 mb-6 font-bold">Advisory Concierge</p>
+              <p className="text-[10px] tracking-[0.4em] uppercase text-white/30 mb-6 font-bold">Contact Our Team</p>
               <p className="text-xl text-white font-light tracking-widest">{siteConfig.phone}</p>
               <div className="mt-8 flex gap-6">
-                {/* Social Links from siteConfig could be mapped here */}
-                <span className="text-[10px] uppercase tracking-widest text-white/20">London</span>
-                <span className="text-[10px] uppercase tracking-widest text-white/20">Cotswolds</span>
+                <span className="text-[10px] uppercase tracking-widest text-white/20">Lekki</span>
+                <span className="text-[10px] uppercase tracking-widest text-white/20">Ajah</span>
+                <span className="text-[10px] uppercase tracking-widest text-white/20">Ikoyi</span>
               </div>
             </div>
           </motion.div>

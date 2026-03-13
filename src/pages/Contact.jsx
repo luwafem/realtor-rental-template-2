@@ -39,7 +39,7 @@ const Contact = () => {
     <div className="bg-[#050505] text-white min-h-screen">
       <Helmet>
         <title>Contact Us | {siteConfig.companyName}</title>
-        <meta name="description" content="Get in touch with Ezenwa James Real Estate in Awka. Call, WhatsApp, or email us to schedule viewings or inquire about properties." />
+        <meta name="description" content="Get in touch with Mekaddishkem Properties in Lagos. Call, WhatsApp, or email us to schedule viewings or inquire about properties in Lekki, Ajah, and beyond." />
       </Helmet>
 
       <section className="pt-32 pb-24 px-6">
@@ -67,7 +67,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-[10px] tracking-[0.3em] uppercase text-white/30 mb-6 font-bold">Let's Connect</h3>
                 <p className="text-lg font-light text-white/60 leading-relaxed italic">
-                  Whether you're looking for your dream home, a rental property, or expert advice, we're here to help. Reach out today.
+                  Whether you're looking for your dream home, a rental property, or expert advice in Lagos, we're here to help. Reach out today.
                 </p>
               </div>
 

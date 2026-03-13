@@ -54,10 +54,10 @@ const Home = () => {
             <div className="text-center mb-20">
               <span className="text-[10px] tracking-[0.5em] uppercase text-white/40 mb-4 block font-bold">Featured Properties</span>
               <h2 className="text-4xl md:text-5xl font-extralight tracking-tighter mb-6 italic">
-                Prime <span className="not-italic">Listings</span> in Awka
+                Prime <span className="not-italic">Listings</span> in Lekki & Ajah
               </h2>
               <p className="text-white/40 font-light max-w-xl mx-auto text-sm leading-relaxed">
-                Discover residential homes, commercial spaces, and land for sale or rent in Awka's most desirable neighborhoods.
+                Discover residential homes, commercial spaces, and land for sale or rent in Lagos's most desirable neighborhoods.
               </p>
             </div>
 
@@ -105,7 +105,7 @@ const Home = () => {
             Find Your <br /> <span className="italic text-white/80">Perfect Property</span>
           </h2>
           <p className="text-white/40 mb-14 max-w-sm mx-auto font-light text-sm tracking-wide leading-relaxed">
-            Whether you're buying, selling, or renting, let our team guide you through Awka's real estate market with confidence.
+            Whether you're buying, selling, or renting, let our team guide you through Lagos's real estate market with confidence.
           </p>
           <Link to="/contact" className="inline-block bg-white text-black px-14 py-6 rounded-full font-bold uppercase text-[11px] tracking-[0.3em] hover:bg-white/90 hover:scale-105 transition-all duration-500">
             Get in Touch Today
